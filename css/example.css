@@ -1,0 +1,21 @@
+.bg-blue {
+    background-color: blue;
+}
+
+
+@media (min-width: 768px) {
+    #yellow_div {
+        background-color: yellow;
+        padding: 2px;
+        margin: 1px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #yellow_div {
+        background-color: darkgoldenrod;
+        padding: 2px;
+        margin: 1px;
+    }
+}
